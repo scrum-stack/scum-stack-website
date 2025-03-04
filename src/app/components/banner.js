@@ -2,10 +2,10 @@ import Button from "./Button";
 
 const Banner = () => {
   return (
-    <section className="relative bg-gray-100 py-20 
+    <section className="relative bg-gray-100 py-32 
       bg-[url('/bgImage.jpg')] bg-cover bg-right bg-no-repeat">
       
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-6">
+      <div className="container mx-auto mt-10 flex flex-col lg:flex-row items-center justify-between px-6">
         
         {/* Left Content */}
         <div className="lg:w-1/2 text-center lg:text-left p-6 rounded-md">
@@ -24,8 +24,8 @@ const Banner = () => {
             We provide top-quality IT solutions to help your business grow. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           </p>
 
-          <div className="flex justify-center lg:justify-start">
-            <Button href="" text="DISCOVER MORE" px="10" py="6"/>
+          <div className="flex  justify-center lg:justify-start">
+          <Button href="" text="DISCOVER MORE" px="8" py="3" />
           </div>
 
         </div>

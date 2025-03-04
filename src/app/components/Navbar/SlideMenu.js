@@ -21,7 +21,7 @@ const SlideMenu = ({ isOpen, onClose }) => {
 
     return (
         <div
-            className={`fixed top-0 z-10 right-0 h-full w-80 bg-gray-900 text-white shadow-lg transform transition-transform duration-300 ${
+            className={`fixed top-0 z-10 right-0 h-full w-80 bg-secondary text-white shadow-lg transform transition-transform duration-300 ${
                 isOpen ? "translate-x-0" : "translate-x-full"
             }`}
         >
@@ -69,17 +69,17 @@ const SlideMenu = ({ isOpen, onClose }) => {
 
             {/* Contact Section */}
             <div className="p-6 border-t border-gray-700 mt-6">
-                <p className="text-yellow-400 font-semibold">CALL NOW</p>
+                <p className="text-primary font-semibold">CALL NOW</p>
                 <p className="flex items-center gap-2 text-sm text-gray-300 mt-2">
                     <FaPhoneAlt /> +92 (5820) - 98670
                 </p>
 
-                <p className="text-yellow-400 font-semibold mt-4">SEND EMAIL</p>
+                <p className="text-primary font-semibold mt-4">SEND EMAIL</p>
                 <p className="flex items-center gap-2 text-sm text-gray-300 mt-2">
                     <FaEnvelope /> help@company.com
                 </p>
 
-                <p className="text-yellow-400 font-semibold mt-4">WORKING HOURS</p>
+                <p className="text-primary font-semibold mt-4">WORKING HOURS</p>
                 <p className="text-sm text-gray-300 mt-2">Mon - Sat 8:00 - 6:30</p>
                 <p className="text-sm text-gray-300">Sunday - CLOSED</p>
             </div>

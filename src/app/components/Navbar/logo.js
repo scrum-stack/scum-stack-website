@@ -1,13 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const Logo = () => {
+const Logo = ({width,src,hidebar,position}) => {
     return (
-        <div className="flex flex-row">
+        <div className={`flex ${position}  flex-row`}>
             <Link href="/">
-                <Image src="/logo.png" alt="Logo" width={200} height={50} />
+                <Image src={src}  alt="Logo" width={width} height={50} />
             </Link>
-            <div className="h-full bg-[#FFAA17] w-3"></div>
+            <div className={`h-full bg-primary w-3 ${hidebar ? 'hidden': ''}`}></div>
         </div>
     );
 };
