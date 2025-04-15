@@ -25,8 +25,8 @@ export default function Home() {
       <Navbar />
       <div id="banner"><Banner /></div>
       <div id="clients"><ClientSlideshow /></div>
-      <div id="about"><About /></div>
       <div id="stats"><StatsBanner /></div>
+      <div id="about"><About /></div>
       <div id="services"><ServicesComponent /></div>
       <div id="tech-management"><TechManagement /></div>
        {/* <HeroSection/> */}
